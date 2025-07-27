@@ -98,6 +98,4 @@ All dependencies are installed automatically inside the Docker container via `re
 
 ---
 
-## Contact
 
-For any issues or clarifications, please refer to the hackathon instructions or contact the organizers.
