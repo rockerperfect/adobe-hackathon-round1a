@@ -1,0 +1,74 @@
+# Docker ignore file for Adobe Hackathon Round 1A
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+.gitignore
+
+# Test files
+test_*
+debug_*
+*_test.py
+*_debug.py
+compare_*.py
+
+# Output directories (will be mounted)
+output/
+test_input/
+test_output/
+
+# Logs
+*.log
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+
+# Docker test scripts
+test_docker.*
+
+# Archive files
+*.7z
+*.zip
+
+# Sample files that are not needed in container
+*_sample.json
