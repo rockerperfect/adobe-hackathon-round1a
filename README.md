@@ -11,6 +11,7 @@ This solution is designed for robust, fully automated PDF outline extraction, me
 - **Adaptive thresholds**: Uses statistical and clustering techniques to adapt to each document's font and layout
 - **Offline, Dockerized, AMD64-compatible**: Runs fully offline in a Docker container, with all dependencies included
 - **No manual intervention**: Container auto-processes all files and exits
+- **Multilingual handling also present
 
 ## Models and Libraries Used
 
